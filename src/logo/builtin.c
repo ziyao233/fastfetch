@@ -1922,6 +1922,26 @@ static const FFlogo G[] = {
         .colorKeys = FF_COLOR_FG_YELLOW,
         .colorTitle = FF_COLOR_FG_WHITE,
     },
+    // GXDE
+    {
+        .names = {"GXDE"},
+        .lines = FASTFETCH_DATATEXT_LOGO_DEBIAN,
+        .colors = {
+            FF_COLOR_FG_RED,
+        },
+        .colorKeys = FF_COLOR_FG_RED,
+        .colorTitle = FF_COLOR_FG_RED,
+    },
+    // GXDESmall
+    {
+        .names = {"GXDE_small"},
+        .lines = FASTFETCH_DATATEXT_LOGO_DEBIAN_SMALL,
+        .colors = {
+            FF_COLOR_FG_RED,
+        },
+        .colorKeys = FF_COLOR_FG_RED,
+        .colorTitle = FF_COLOR_FG_RED,
+    },
     // LAST
     {},
 };
